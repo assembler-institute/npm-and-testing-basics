@@ -6,35 +6,11 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
+> In this pill I have learned how to install and use **npm**, how to initialize **npm** on a repository and how to read and work with its _package.json_ file.
 >
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
+> I have learned how to install new libraries such as **Lodash**, **Jest** and **Moment** either installing them as production dependencies either as development dependencies.
 >
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
-
-## Index <!-- omit in toc -->
-
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
-
-## Requirements
-
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
-
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+> Using _.gitignore_ to avoid charge several files on the remote repository, **npm install** to install all the dependencies included into de _package.json_, **npm install --save-dev** to install as development dependencies, **npm update** to get the last version, **npm uninstall** to uninstall certain dependecy and **npm run test** to run the test once I've installed the _Jest_ library
 
 ## Technologies used
 
@@ -48,17 +24,9 @@ To create a fork on GitHub is as easy as clicking the “fork” button on the r
 
 \* Jest Library
 
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
 ## Resources
 
 - [NPM Tool](https://www.npmjs.com/)
 - [Lodash Library](https://lodash.com/)
 - [MomentJS Library](https://momentjs.com)
 - [Jest Library](https://jestjs.io/)
-- [Intro to JS TDD](https://www.youtube.com/watch?v=SbKPgaRZsxA)
-- [README.md Guidelines](https://github.com/othneildrew/Best-README-Template)
