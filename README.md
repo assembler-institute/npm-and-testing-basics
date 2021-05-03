@@ -6,12 +6,6 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
->
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
->
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
-
 ## Index <!-- omit in toc -->
 
 - [Requirements](#requirements)
@@ -22,17 +16,23 @@
 
 ## Requirements
 
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+- To run the tests we need to use npm. To check if it's installed run the following command line:
+
+  npm -v
+
+
+- If it isn't installed, just install node.js. After verifying npm is installed run.
+
+  npm install
+
+- After the dependencies have been installed use to run all tests.
+
+  npm test
+
 
 ## Repository
 
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+First of all you must fork this project into your GitHub account. To do so on GitHub is as easy as clicking the “fork” button on the repository page.
 
 <img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
 
