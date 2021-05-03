@@ -12,29 +12,62 @@
 >
 > **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
 
-## Index <!-- omit in toc -->
+## Table of contents <!-- omit in toc -->
 
-- [Requirements](#requirements)
-- [Repository](#repository)
+- [Installing an NPM package](#installing-an-NPM-package)
+- [Install a specific version of the package](#Install-a-specific-version-of-the-package)
+- [Install production package](#install-production-package)
+- [Install development package](#install-development-package)
+- [Uninstalling an npm package](#Uninstalling-an-npm-package)
+- [Upgrade NPM](#NPM-upgrade)
 - [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
 - [Resources](#resources)
 
-## Requirements
+## Installing an NPM package
 
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+To install an <code>moment</code> package simply run the command:
 
-## Repository
+```
+ npm install moment
+```
 
-First of all you must fork this project into your GitHub account.
+## Install a specific version of the package
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+To install a specific version of the package add the version to the package like:
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+```
+ npm install lodash@4.17.14
+```
+
+## Install production package
+
+To install a prodDependency append --save to the command. Let’s install <code>jQuery</code> as a production dependency:
+
+```
+ npm install jquery --save
+```
+
+## Install development package
+
+To install a devDependency append --save-dev to the command:
+
+```
+ npm install jest --save-dev
+```
+
+## Uninstalling an NPM package
+
+To uninstall an npm package use the following command:
+
+```
+ npm uninstall jquery
+```
+
+## NPM upgrade
+
+Upgrading npm on Windows requires manual steps to ensure that PowerShell/CMD find the new version of npm. Below You can find made a small tool for npm and Node, reducing the process to a simple command.
+
+- [Visit github](https://github.com/felixrieseberg/npm-windows-upgrade)
 
 ## Technologies used
 
@@ -47,12 +80,6 @@ To create a fork on GitHub is as easy as clicking the “fork” button on the r
 \* Lodash Library
 
 \* Jest Library
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
 
 ## Resources
 
