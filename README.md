@@ -2,9 +2,7 @@
 
 # NPM & Testing Basics <!-- omit in toc -->
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+Pill to get familiar with **npm**, install different kind of dependencies such as **moment**, **lodash** for production, and **jest** for development.
 
 > In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
 >
@@ -47,12 +45,6 @@ To create a fork on GitHub is as easy as clicking the “fork” button on the r
 \* Lodash Library
 
 \* Jest Library
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
 
 ## Resources
 
