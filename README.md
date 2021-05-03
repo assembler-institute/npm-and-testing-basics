@@ -1,64 +1,57 @@
 `#npm` `#js` `#moment-js` `#lodash` `#jest` `#master-in-software-engineering`
 
-# NPM & Testing Basics <!-- omit in toc -->
+# NPM and testing basics
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+Project based on installing, updating and uninstalling some repositories with **NPM** to understand better this package manager. Repositories we worked with: **MomentJS**, **Lodash**, **jQuery**, **Jest**.
 
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
->
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
->
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
+A second part of this project deepens into the testing framework **Jest**, creating six tests for six functions where we also learned a bit more about **MomentJS** and **Lodash**.
 
-## Index <!-- omit in toc -->
+## Prerequisites
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+- **NodeJS** with **NPM**: https://nodejs.org/en/
 
-## Requirements
+## Installing
 
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+To set de dev environment run this on console:
 
-## Repository
+_npm install_
 
-First of all you must fork this project into your GitHub account.
+## Tests
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+The tests run on the functions of the **src** folder.
+The _date.js_ functions are tested to check if they show the actual day, month and year using **MomentJS** methods.
+The _util.js_ functions are tested to check some of the **Lodash** repository functions: creation of arrays, transforming text to camelCase format and getting the index of a specific item from an Array.
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+To run the test you need to add this to the console:
 
-## Technologies used
+_npm run test_
 
-\* NPM Tool
+## Built with
 
-\* Javascript
+- VsCode
 
-\* MomentJS Library
+- NPM
 
-\* Lodash Library
+- Javascript
 
-\* Jest Library
+- MomentJS Library
 
-## Project delivery
+- Lodash Library
 
-To deliver this project you must follow the steps indicated in the document:
+- Jest Library
 
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
+- jQuery Library
 
-## Resources
+- Lots of love
 
-- [NPM Tool](https://www.npmjs.com/)
-- [Lodash Library](https://lodash.com/)
-- [MomentJS Library](https://momentjs.com)
-- [Jest Library](https://jestjs.io/)
-- [Intro to JS TDD](https://www.youtube.com/watch?v=SbKPgaRZsxA)
-- [README.md Guidelines](https://github.com/othneildrew/Best-README-Template)
+## Author
+
+- Jordi Arnau Esteban
+
+## License
+
+All rights reserved Assembler 2021
+
+## Acknowledgements
+
+Acknowledgements to all my classmates who inspire me and give me strengh day to day
