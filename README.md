@@ -1,16 +1,6 @@
-`#npm` `#js` `#moment-js` `#lodash` `#jest` `#master-in-software-engineering`
+# Project name: NPM & Testing Basics
 
-# NPM & Testing Basics <!-- omit in toc -->
-
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
-
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
->
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
->
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
+> On this pill we learned the basics of **nmp** tool and **Jest** to test our code.
 
 ## Index <!-- omit in toc -->
 
@@ -62,3 +52,35 @@ To deliver this project you must follow the steps indicated in the document:
 - [Jest Library](https://jestjs.io/)
 - [Intro to JS TDD](https://www.youtube.com/watch?v=SbKPgaRZsxA)
 - [README.md Guidelines](https://github.com/othneildrew/Best-README-Template)
+
+## Installation
+
+>**Npm** need to be installed to add all the necessary dependencies to run this pill.
+
+## Credits
+
+>Miguel Perez Martinez
+
+## License
+
+>MIT License
+>
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

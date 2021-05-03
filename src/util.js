@@ -6,15 +6,17 @@ const lodash = require("lodash");
 
 function createArray(arraySize) {
   // TODO implement
-  // return lodash.times(arraySize, lodash.uniqueId.bind(null, 'ball_'));
+  return lodash.range(6);
 }
 
 function toCamelCase(string) {
   // TODO implement
+  return lodash.camelCase(string);
 }
 
 function getIndexOf(array, value) {
   // TODO implement
+  return lodash.indexOf(array, value, 0);
 }
 
 module.exports = {
