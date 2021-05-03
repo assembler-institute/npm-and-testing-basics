@@ -55,7 +55,7 @@ To deliver this project you must follow the steps indicated in the document:
 
 ## Installation
 
->Need to install **NPM** to add all the necessary dependencies to run this pill.
+>**Npm** need to be installed to add all the necessary dependencies to run this pill.
 
 ## Credits
 
