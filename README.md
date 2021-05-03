@@ -4,19 +4,29 @@
 
 Pill to get familiar with **npm**, install different kind of dependencies such as **moment**, **lodash** for production, and **jest** for development.
 
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
->
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
->
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
+## Install repository
 
-## Index <!-- omit in toc -->
+Copy the repository url and paste it on your local machine via terminal
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+`git clone`
+
+## Basic npm commands
+
+To generate a _package.json_ file for the repository:
+
+`npm init -y`
+
+To install a global dependency:
+
+`npm i -g <package>`
+
+To install a production dependency:
+
+`npm i --save <package>`
+
+To install a development dependency:
+
+`npm i --save-dev <package>`
 
 ## Requirements
 
@@ -25,14 +35,6 @@ Pill to get familiar with **npm**, install different kind of dependencies such a
 - Improve your knowledge in Javascript in professional work environments
 - Improve your knowledge regarding **Javascript Modules**.
 - Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
-
-## Repository
-
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
 
 ## Technologies used
 
