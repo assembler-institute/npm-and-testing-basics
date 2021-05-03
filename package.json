@@ -13,7 +13,7 @@
     "src"
   ],
   "dependencies": {
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.14",
     "moment": "^2.29.1"
   }
 }
