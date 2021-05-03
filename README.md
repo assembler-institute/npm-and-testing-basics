@@ -2,7 +2,7 @@
 
 # NPM and testing basics
 
-Project based on installing, updating and uninstalling some repositories with NPM to understand better this package manager. Repositories we worked with: **MomentJS**, **Lodash**, **jQuery**, **Jest**.
+Project based on installing, updating and uninstalling some repositories with **NPM** to understand better this package manager. Repositories we worked with: **MomentJS**, **Lodash**, **jQuery**, **Jest**.
 
 A second part of this project deepens into the testing framework **Jest**, creating six tests for six functions where we also learned a bit more about **MomentJS** and **Lodash**.
 
@@ -12,7 +12,7 @@ A second part of this project deepens into the testing framework **Jest**, creat
 
 ## Installing
 
-To set de dev environment just run this on console:
+To set de dev environment run this on console:
 
 _npm install_
 
@@ -20,9 +20,10 @@ _npm install_
 
 The tests run on the functions of the **src** folder.
 The _date.js_ functions are tested to check if they show the actual day, month and year using **MomentJS** methods.
-The _util.js_ functions are tested to check some of the **Lodash** repository functions: creation of arrays, transform text to camelCase format and getting the index of a specific item from an Array.
+The _util.js_ functions are tested to check some of the **Lodash** repository functions: creation of arrays, transforming text to camelCase format and getting the index of a specific item from an Array.
 
-To run the test you just need to add this to the console:
+To run the test you need to add this to the console:
+
 _npm run test_
 
 ## Built with
@@ -53,4 +54,4 @@ All rights reserved Assembler 2021
 
 ## Acknowledgements
 
-Acknowledgements to all my classmates who inspired me
+Acknowledgements to all my classmates who inspire me and give me strengh day to day
