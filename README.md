@@ -4,37 +4,84 @@
 
 Pill to get familiar with **npm**, install different kind of dependencies such as **moment**, **lodash** for production, and **jest** for development.
 
+This pill is also about doing the **first steps into testing** both using _Jest_ dependency and creating _test.js_ files to pass the tests.
+
 ## Install repository
 
 Copy the repository url and paste it on your local machine via terminal
 
-`git clone`
+```
+git clone
+```
 
 ## Basic npm commands
 
 To generate a _package.json_ file for the repository:
 
-`npm init -y`
+```
+npm init -y
+```
 
-To install a global dependency:
+If there are dependencies declared in the basic _package.json_ file:
 
-`npm i -g <package>`
+```
+npm install
+```
 
-To install a production dependency:
+To install a **global** dependency:
 
-`npm i --save <package>`
+```
+npm i -g <package>
+```
 
-To install a development dependency:
+To install a **production** dependency:
 
-`npm i --save-dev <package>`
+```
+npm i --save <package>
+```
 
-## Requirements
+To install a **development** dependency:
 
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+```
+npm i --save-dev <package>
+```
+
+## Testing
+
+This repository uses _moment_ and _lodash_ libraries but, in order to create the **testing enviornment** you'll need _Jest_. To install it, inside your project execute the following commands.
+
+Install _Jest_ as a development dependency
+
+```
+npm --save-dev jest
+```
+
+In order to **run the tests and compare** them you'll need the basic Javascript file and another one under the same name with the `test.js`suffix.
+
+```
+fileName.js <----->  fileName.test.js
+```
+
+Also you'll need to import all functions contained in the basic JavaScript file to the testing file like so:
+
+```
+const test = require("../src/fileName");
+
+// Treat "test" file as module
+test.function1()
+test.function2()
+test.function2()
+...
+```
+
+## Lessons learnt
+
+- Install _npm_.
+- Learn what _package.json_ and _package-lock.json_ files are and create them.
+- Define _global_, _production_ and development _dependencies_.
+- Use libraries such as _Moment_ and _Lodash_ to help developing JavaScript files.
+- Use _Jest_ dependency to test JavaScript files.
+- Learn what _TDD (Test-Driven Development)_ is.
 
 ## Technologies used
 
