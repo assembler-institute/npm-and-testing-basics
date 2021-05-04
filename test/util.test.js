@@ -4,18 +4,29 @@ const util = require("../src/util");
 
 test("creates an array of 6 elements lol", () => {
   // TODO implement
-  // expect(util.createArray(6).length).toBe(6);
+  expect(util.createArray(6).length).toBe(new Array(6).length);
 
-  // just to let it go red :) cool! now your turn remove this line an implement it you have the clue over this.
-  expect(1).toBe(2);
 });
 
 test("gets the index of a given value", () => {
   var arrayColors = ["red", "blue", "green"];
-  // TODO implement
+  arrayColors.forEach(function (element, index) {
+    expect(util.getIndexOf(arrayColors, element)).toBe(index);
+  });
 });
 
 test("moves a string to camel case", () => {
   var string = "User name";
   // TODO implement
+  var camelCase = string
+    .split(" ")
+    .map((element, i, arr) => {
+      return i == 0
+        ? element.toLowerCase()
+        : element
+            .toLowerCase()
+            .replace(arr[i].charAt(0), arr[i].charAt(0).toUpperCase());
+    })
+    .join("");
+  expect(util.toCamelCase(string)).toBe(camelCase);
 });
