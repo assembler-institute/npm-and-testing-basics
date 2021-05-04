@@ -1,64 +1,38 @@
-`#npm` `#js` `#moment-js` `#lodash` `#jest` `#master-in-software-engineering`
+# NPM PILL<br>
 
-# NPM & Testing Basics <!-- omit in toc -->
+**Initialize NPM into your project**
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+`npm init -y`
 
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
->
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
->
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
+**Install Moment.js**
 
-## Index <!-- omit in toc -->
+`npm install moment`
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+**Install Lodash.js**
 
-## Requirements
+`npm install lodash@4.17.14`
 
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+**Install jQuery ( Production )**
 
-## Repository
+` npm install --save jquery`
 
-First of all you must fork this project into your GitHub account.
+**Install Jest ( Development )**
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+`npm install --save-dev jest`
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+**Update NPM**
 
-## Technologies used
+`npm install -g npm@latest`
 
-\* NPM Tool
+**Testing**
 
-\* Javascript
+`> npm-and-testing-basics@1.0.0 test`<br> `> jest`
 
-\* MomentJS Library
+`PASS  test/date.test.js`
+`PASS  test/util.test.js`
 
-\* Lodash Library
+`Test Suites: 2 passed, 2 total`<br>
+`Tests:       6 passed, 6 total`<br>
+`Snapshots:   0 total`<br>
+`Time:        3.994 s`<br>
 
-\* Jest Library
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
-## Resources
-
-- [NPM Tool](https://www.npmjs.com/)
-- [Lodash Library](https://lodash.com/)
-- [MomentJS Library](https://momentjs.com)
-- [Jest Library](https://jestjs.io/)
-- [Intro to JS TDD](https://www.youtube.com/watch?v=SbKPgaRZsxA)
-- [README.md Guidelines](https://github.com/othneildrew/Best-README-Template)
