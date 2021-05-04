@@ -10,7 +10,7 @@
 >
 > I have learned how to install new libraries such as **Lodash**, **Jest** and **Moment** either installing them as production dependencies either as development dependencies.
 >
-> Using _.gitignore_ to avoid charge several files on the remote repository, **npm install** to install all the dependencies included into de _package.json_, **npm install --save-dev** to install as development dependencies, **npm update** to get the last version, **npm uninstall** to uninstall certain dependecy and **npm run test** to run the test once I've installed the _Jest_ library
+> Using _.gitignore_ to avoid charge several files on the remote repository, **npm install** to install all the dependencies included into de _package.json_, **npm install --save-dev** to install as development dependencies, **npm update** to get the last version, **npm uninstall** to uninstall certain dependecy and **npm run test** to run the test once I've installed the _Jest_ library. Also, I've learned the basics about how to code tests.
 
 ## Technologies used
 
