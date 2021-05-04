@@ -39,7 +39,6 @@ To install a **production** dependency:
 ```
 npm i --save <package>
 npm i -S <package>
-
 ```
 
 To install a **development** dependency:
