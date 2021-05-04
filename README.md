@@ -38,12 +38,34 @@ To install a **production** dependency:
 
 ```
 npm i --save <package>
+npm i -S <package>
+
 ```
 
 To install a **development** dependency:
 
 ```
 npm i --save-dev <package>
+npm i -D <package>
+
+```
+
+To install a dependency at specific version:
+
+```
+npm i --save moment@4.14.15
+```
+
+To updated a dependency:
+
+```
+npm update <package>
+```
+
+To uninstall a dependency:
+
+```
+npm uninstall <package>
 ```
 
 ## Testing
@@ -72,6 +94,12 @@ test.function1()
 test.function2()
 test.function2()
 ...
+```
+
+To test the files
+
+```
+npm test
 ```
 
 ## Lessons learnt
