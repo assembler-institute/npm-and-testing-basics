@@ -47,7 +47,6 @@ To install a **development** dependency:
 ```
 npm i --save-dev <package>
 npm i -D <package>
-
 ```
 
 To install a dependency at specific version:
