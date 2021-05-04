@@ -79,7 +79,7 @@ npm --save-dev jest
 In order to **run the tests and compare** them you'll need the basic Javascript file and another one under the same name with the `test.js`suffix.
 
 ```
-fileName.js <----->  fileName.test.js
+fileName.js  <----->  fileName.test.js
 ```
 
 Also you'll need to import all functions contained in the basic JavaScript file to the testing file like so:
