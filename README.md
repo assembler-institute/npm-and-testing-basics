@@ -2,39 +2,112 @@
 
 # NPM & Testing Basics <!-- omit in toc -->
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+Pill to get familiar with **npm**, install different kind of dependencies such as **moment**, **lodash** for production, and **jest** for development.
 
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
->
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
->
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
+This pill is also about doing the **first steps into testing** both using _Jest_ dependency and creating _test.js_ files to pass the tests.
 
-## Index <!-- omit in toc -->
+## Install repository
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+Copy the repository url and paste it on your local machine via terminal
 
-## Requirements
+```
+git clone
+```
 
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+## Basic npm commands
 
-## Repository
+To generate a _package.json_ file for the repository:
 
-First of all you must fork this project into your GitHub account.
+```
+npm init -y
+```
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+If there are dependencies declared in the basic _package.json_ file:
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+```
+npm install
+```
+
+To install a **global** dependency:
+
+```
+npm i -g <package>
+```
+
+To install a **production** dependency:
+
+```
+npm i --save <package>
+npm i -S <package>
+```
+
+To install a **development** dependency:
+
+```
+npm i --save-dev <package>
+npm i -D <package>
+```
+
+To install a dependency at specific version:
+
+```
+npm i --save moment@4.14.15
+```
+
+To updated a dependency:
+
+```
+npm update <package>
+```
+
+To uninstall a dependency:
+
+```
+npm uninstall <package>
+```
+
+## Testing
+
+This repository uses _moment_ and _lodash_ libraries but, in order to create the **testing enviornment** you'll need _Jest_. To install it, inside your project execute the following commands.
+
+Install _Jest_ as a development dependency
+
+```
+npm --save-dev jest
+```
+
+In order to **run the tests and compare** them you'll need the basic Javascript file and another one under the same name with the `test.js`suffix.
+
+```
+fileName.js  <----->  fileName.test.js
+```
+
+Also you'll need to import all functions contained in the basic JavaScript file to the testing file like so:
+
+```
+const test = require("../src/fileName");
+
+// Treat "test" file as module
+test.function1()
+test.function2()
+test.function2()
+...
+```
+
+To test the files
+
+```
+npm test
+```
+
+## Lessons learnt
+
+- Install _npm_.
+- Learn what _package.json_ and _package-lock.json_ files are and create them.
+- Define _global_, _production_ and development _dependencies_.
+- Use libraries such as _Moment_ and _Lodash_ to help developing JavaScript files.
+- Use _Jest_ dependency to test JavaScript files.
+- Learn what _TDD (Test-Driven Development)_ is.
 
 ## Technologies used
 
@@ -47,12 +120,6 @@ To create a fork on GitHub is as easy as clicking the “fork” button on the r
 \* Lodash Library
 
 \* Jest Library
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
 
 ## Resources
 
