@@ -4,15 +4,18 @@ const date = require("../src/date");
 
 test("gets current day", () => {
   // TODO implement
-  expect(date.getCurrentDay("2021-09-01")).toBe("Wednesday");
+  let currentDate = "2021-09-01";
+  expect(date.getCurrentDay(currentDate)).toBe("Wednesday");
 });
 
 test("gets current month", () => {
   // TODO implement
-  expect(date.getCurrentMonth("2021-09-01")).toBe("September");
+  let currentDate = "2021-09-01";
+  expect(date.getCurrentMonth(currentDate)).toBe("September");
 });
 
 test("gets current year", () => {
   // TODO implement
-  expect(date.getCurrentYear("2021-09-01")).toBe("2021");
+  let currentDate = "2021-09-01";
+  expect(date.getCurrentYear(currentDate)).toBe("2021");
 });

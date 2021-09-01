@@ -4,18 +4,21 @@ var moment = require("moment");
  * TODO: all getters, all get method must return a value
  * */
 
-function getWeekDay(date) {
+function getWeekDay() {
   // TODO implement
+  let date = new Date();
   return moment(date).format("dddd");
 }
 
-function getCurrentMonth(date) {
+function getCurrentMonth() {
   // TODO implement
+  let date = new Date();
   return moment(date).format("MMMM");
 }
 
-function getCurrentYear(date) {
+function getCurrentYear() {
   // TODO implement
+  let date = new Date();
   return moment(date).format("YYYY");
 }
 
