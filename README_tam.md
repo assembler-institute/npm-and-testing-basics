@@ -2,10 +2,6 @@
 
 # NPM & Testing Basics <!-- omit in toc -->
 
-> In this pill I have learnt the basics of the **npm** tool to handle the dependencies and how to test your code.
->
-> **npm** is a tool that manages the **dependencies** of Javascript project, both in client and in backend (NodeJs).
-
 ## Index <!-- omit in toc -->
 
 - [Description](#description)
@@ -16,6 +12,8 @@
 
 ## Description
 
+- In this pill I have learnt the basics of the **npm** tool to handle the dependencies and how to test your code.
+- **npm** is a tool that manages the **dependencies** of Javascript project, both in client and in backend (NodeJs).
 - Understand that it is a **dependency manager**.
 - Understand what **NPM** is and what its fundamentals are.
 - Improve your knowledge in Javascript in professional work environments
