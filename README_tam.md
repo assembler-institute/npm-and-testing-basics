@@ -20,16 +20,17 @@
 
 ## Table of contents
 
-| Function name | Description                  |
-| ------------- | ---------------------------- |
-| `help()`      | Display the **help** window. |
-| `destroy()`   | **Destroy your computer!**   |
+| File / Folder       | Description                                                |
+| ------------------- | ---------------------------------------------------------- |
+| `src`               | Source of files for testing.                               |
+| `test`              | Implement test methods                                     |
+| `package.json`      | List the packages the project depends on                   |
+| `package-lock.json` | Keep track of the exact version of every package installed |
+| `.gitignore`        | Untracked files that Git should ignore                     |
 
 ## Installation
 
 \* NPM Tool
-
-\* Javascript
 
 \* MomentJS Library
 
@@ -38,10 +39,6 @@
 \* Jest Library
 
 ## Usage
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
 
 ## Resources
 
