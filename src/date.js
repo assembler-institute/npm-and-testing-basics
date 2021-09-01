@@ -4,19 +4,35 @@ var moment = require("moment");
  * TODO: all getters, all get method must return a value
  * */
 
+
+/**
+ * Returns today 
+ *
+ */
 function getWeekDay() {
-  // TODO implement
-  // return moment().day();
+   return moment().day();
 }
 
+
+/**
+ * Returns the current month
+ *
+ */
 function getCurrentMonth() {
-  // TODO implement
+  return moment().month();
 }
 
+
+/**
+ *Returns the current year
+ *
+ */
 function getCurrentYear() {
-  // TODO implement
+  return moment().year();
 }
 
+
+//......................EXPORTS.....................\\
 module.exports = {
   getCurrentDay: getWeekDay,
   getCurrentMonth: getCurrentMonth,
