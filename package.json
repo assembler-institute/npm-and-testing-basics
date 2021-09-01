@@ -13,8 +13,6 @@
     "src"
   ],
   "dependencies": {
-    "jQuery": "^1.7.4",
-    "jquery": "^3.6.0",
     "lodash": "^4.17.14",
     "moment": "^2.29.1"
   },
