@@ -14,19 +14,16 @@
 
 - In this pill I have learnt the basics of the **npm** tool to handle the dependencies and how to test your code.
 - **npm** is a tool that manages the **dependencies** of Javascript project, both in client and in backend (NodeJs).
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+- Improve my knowledge in Javascript in professional work environments
+- Improve my knowledge regarding **Javascript Modules**.
+- Understand how to use **third party libraries** and packages in my project without the need to store them in your repository.
 
 ## Table of contents
 
-First of all you must fork this project into your GitHub account.
-
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
-
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+| Function name | Description                  |
+| ------------- | ---------------------------- |
+| `help()`      | Display the **help** window. |
+| `destroy()`   | **Destroy your computer!**   |
 
 ## Installation
 
