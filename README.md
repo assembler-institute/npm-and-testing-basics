@@ -1,64 +1,43 @@
-`#npm` `#js` `#moment-js` `#lodash` `#jest` `#master-in-software-engineering`
+# NPM Testing Basics
 
-# NPM & Testing Basics <!-- omit in toc -->
+NPM is a tool that manages the dependencies of our Javascript project, both in client and in backend (NodeJs). Thanks to this tool, we can work with the installation of those modules that our project needs in a comfortable way, avoiding all the problems involved in installing the dependencies manually and without any control or supervision.
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+## Lessons Learned
 
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
->
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
->
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
+● Understand that it is a dependency manager.
 
-## Index <!-- omit in toc -->
+● Understand what NPM is and what its fundamentals are.
 
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
-- [Resources](#resources)
+● Improve your knowledge in Javascript in professional work environments
 
-## Requirements
+● Improve your knowledge regarding Javascript Modules.
 
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+● Understand how to use third party libraries and packages in your project without the need to store them in your repository, that is the one of the wonders of this amazing programming tools.
 
-## Repository
+## Running Tests
 
-First of all you must fork this project into your GitHub account.
+To run tests, run the following command
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+```bash
+  npm run test
+```
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+## Documentation
 
-## Technologies used
+● Project repository: https://github.com/assembler-school/npm-and-testing-basics
 
-\* NPM Tool
+● NPM: https://www.npmjs.com/
 
-\* Javascript
+● Lodash: https://lodash.com/
 
-\* MomentJS Library
+● MomentJS: https://momentjs.com
 
-\* Lodash Library
+● Jest: https://jestjs.io/
 
-\* Jest Library
+● An intro to JS TDD: https://www.youtube.com/watch?v=SbKPgaRZsxA
 
-## Project delivery
+● README: https://guides.github.com/features/wikis/
 
-To deliver this project you must follow the steps indicated in the document:
+## Authors
 
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
-## Resources
-
-- [NPM Tool](https://www.npmjs.com/)
-- [Lodash Library](https://lodash.com/)
-- [MomentJS Library](https://momentjs.com)
-- [Jest Library](https://jestjs.io/)
-- [Intro to JS TDD](https://www.youtube.com/watch?v=SbKPgaRZsxA)
-- [README.md Guidelines](https://github.com/othneildrew/Best-README-Template)
+- [@paulMolano](https://github.com/paulMolano)
