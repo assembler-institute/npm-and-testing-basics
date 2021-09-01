@@ -6,15 +6,17 @@ var moment = require("moment");
 
 function getWeekDay() {
   // TODO implement
-  // return moment().day();
+  return moment().day(); // use day method
 }
 
 function getCurrentMonth() {
   // TODO implement
+  return moment().month(); // use month method
 }
 
 function getCurrentYear() {
   // TODO implement
+  return moment().year(); // use year method
 }
 
 module.exports = {
