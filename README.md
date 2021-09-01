@@ -1,5 +1,3 @@
-`#npm` `#js` `#moment-js` `#lodash` `#jest` `#master-in-software-engineering`
-
 # NPM and Testing basics
 
 - Learning and getting some practice using NPM to install and uninstall dependencies and also using Jest to test some basic functions.
