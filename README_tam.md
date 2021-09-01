@@ -30,15 +30,18 @@
 
 ## Installation
 
-\* NPM Tool
-
 \* MomentJS Library
+`npm install moment`
 
 \* Lodash Library
+`npm install lodash`
 
 \* Jest Library
+`npm install jest -save-dev`
 
 ## Usage
+
+`npm run test`
 
 ## Resources
 
