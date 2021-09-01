@@ -6,7 +6,7 @@ const lodash = require("lodash");
 
 function createArray(arraySize) {
   // TODO implement
-  // return lodash.times(arraySize, lodash.uniqueId.bind(null, 'ball_'));
+   return lodash.times(arraySize, lodash.uniqueId.bind(null, 'ball_'));
 }
 
 function toCamelCase(string) {
