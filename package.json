@@ -4,7 +4,7 @@
   "description": "Getting started with NPM and Testing",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "Assembler School",
   "license": "ISC",
@@ -15,5 +15,8 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0"
   }
 }
