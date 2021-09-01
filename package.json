@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/ParisArcos/npm-and-testing-basics/issues"
   },
-  "homepage": "https://github.com/ParisArcos/npm-and-testing-basics#readme"
+  "homepage": "https://github.com/ParisArcos/npm-and-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
+  }
 }
