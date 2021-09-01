@@ -1,6 +1,6 @@
 const date = require("../src/date");
 
-// Date tests
+//................. Date tests.................\\
 
 test("gets current day", () => {
   expect(date.getCurrentDay()).toBe(new Date().getDay());

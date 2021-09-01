@@ -1,6 +1,5 @@
 const util = require("../src/util");
-
-// Util tests
+//.................Util tests.................\\
 
 test("creates an array of 6 elements lol", () => {
   expect(util.createArray(6).length).toBe(6);

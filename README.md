@@ -1,59 +1,50 @@
 `#npm` `#js` `#moment-js` `#lodash` `#jest` `#master-in-software-engineering`
 
-# NPM & Testing Basics <!-- omit in toc -->
+# NPM & Testing Basics
+In this pill i learn the basics of the npm tool to handle the 
+dependencies and how to test your code with Jest.
+## Appendix
 
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
-</p>
+Any additional information goes here
 
-> In this pill you will learn the basics of the **npm** tool to handle the dependencies and how to test your code with **Jest**.
->
-> **npm** is a tool that manages the **dependencies** of our Javascript project, both in client and in backend (NodeJs).
->
-> **Jest** is a JavaScript test runner, that is, a JavaScript library for creating, running, and structuring tests to ensure your code is doing what you expected it to do.
-
-## Index <!-- omit in toc -->
-
-- [Requirements](#requirements)
-- [Repository](#repository)
-- [Technologies used](#technologies-used)
-- [Project delivery](#project-delivery)
+- [Documentation](#documentation)
+- [Lessons Learned](#lessons-learned)
+- [Running Tests](#running-tests)
 - [Resources](#resources)
+- [Links](#links)  
+## Documentation
 
-## Requirements
+-[NPM & Testing Pill]( https://docs.google.com/document/d/1K_JXKRQBEdCsGz8xtoeD7uO-NWEefgqq53v2MDgMfaM)
 
-- Understand that it is a **dependency manager**.
-- Understand what **NPM** is and what its fundamentals are.
-- Improve your knowledge in Javascript in professional work environments
-- Improve your knowledge regarding **Javascript Modules**.
-- Understand how to use **third party libraries** and packages in your project without the need to store them in your repository.
+  
+## Lessons Learned
 
-## Repository
+-Use npm
+    
+    -to install packages
+    -to install packages as development/production dependency
+    -to install packages in specific version
+    -to uninstal packages
+    -to update npm
 
-First of all you must fork this project into your GitHub account.
+-Uses of Moment JS
 
-To create a fork on GitHub is as easy as clicking the “fork” button on the repository page.
+-To work with lodash
 
-<img src="https://docs.github.com/assets/images/help/repository/fork_button.jpg" alt="Fork on GitHub" width='450'>
+-Use jest
 
-## Technologies used
+    -to design test
+    -to test applications 
+  
+## Running Tests
 
-\* NPM Tool
+To run tests, run the following command
 
-\* Javascript
+```bash
+  npm run test
+```
 
-\* MomentJS Library
-
-\* Lodash Library
-
-\* Jest Library
-
-## Project delivery
-
-To deliver this project you must follow the steps indicated in the document:
-
-- [Submitting a solution](https://www.notion.so/Submitting-a-solution-524dab1a71dd4b96903f26385e24cdb6)
-
+  
 ## Resources
 
 - [NPM Tool](https://www.npmjs.com/)
@@ -62,3 +53,12 @@ To deliver this project you must follow the steps indicated in the document:
 - [Jest Library](https://jestjs.io/)
 - [Intro to JS TDD](https://www.youtube.com/watch?v=SbKPgaRZsxA)
 - [README.md Guidelines](https://github.com/othneildrew/Best-README-Template)
+
+  
+## Authors
+
+- [@ParisArcos](https://github.com/ParisArcos)
+
+  
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paris-arcos-martin-268708217/)
