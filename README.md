@@ -49,4 +49,4 @@ When running the test, a report including the results will be generated inside t
 
 ## Credits
 
-This pill is a solution for **assembler-school/npm-and-testing-basics** repository developed by @assembler-school.
+This pill is a solution for **assembler-school/npm-and-testing-basics** repository developed by [assembler-school](https://github.com/assembler-school)
