@@ -5,20 +5,23 @@ var moment = require("moment");
  * */
 
 function getWeekDay() {
-  // TODO implement
-  // return moment().day();
+    // TODO implement
+    return moment(new Date()).day();
 }
 
 function getCurrentMonth() {
-  // TODO implement
+    // TODO implement
+    return moment(new Date()).month();
 }
 
 function getCurrentYear() {
-  // TODO implement
+    // TODO implement
+    let cows = new Date();
+    return moment(cows).get("year");
 }
 
 module.exports = {
-  getCurrentDay: getWeekDay,
-  getCurrentMonth: getCurrentMonth,
-  getCurrentYear: getCurrentYear,
+    getCurrentDay: getWeekDay,
+    getCurrentMonth: getCurrentMonth,
+    getCurrentYear: getCurrentYear,
 };

@@ -15,5 +15,19 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "moment": "^2.29.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaiGenes/npm-and-testing-basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YaiGenes/npm-and-testing-basics/issues"
+  },
+  "homepage": "https://github.com/YaiGenes/npm-and-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
   }
 }
