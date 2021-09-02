@@ -62,3 +62,9 @@ To deliver this project you must follow the steps indicated in the document:
 - [Jest Library](https://jestjs.io/)
 - [Intro to JS TDD](https://www.youtube.com/watch?v=SbKPgaRZsxA)
 - [README.md Guidelines](https://github.com/othneildrew/Best-README-Template)
+
+
+## first phase 
+In this link you can find de first part of the pill.
+
+https://github.com/CYBER-MARCUSSEN/npm-and-testing-basics
