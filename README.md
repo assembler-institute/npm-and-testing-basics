@@ -65,4 +65,4 @@ To deliver this project you must follow the steps indicated in the document:
 
 ## Personal Repository
 
-https://github.com/Interna1ta/npm-and-testing-basics.git
+https://github.com/Interna1ta/npm-and-testing-basics.git 
