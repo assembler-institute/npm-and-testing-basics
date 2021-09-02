@@ -15,5 +15,20 @@
   "dependencies": {
     "lodash": "^4.17.21",
     "moment": "^2.29.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosepR3/npm-and-testing-basics.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/JosepR3/npm-and-testing-basics/issues"
+  },
+  "homepage": "https://github.com/JosepR3/npm-and-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
   }
 }
