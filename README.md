@@ -20,7 +20,7 @@
 - [Project delivery](#project-delivery)
 - [Resources](#resources)
 
-## Requirements
+## Requirements 
 
 - Understand that it is a **dependency manager**.
 - Understand what **NPM** is and what its fundamentals are.
