@@ -13,10 +13,12 @@ test("creates an array of 6 elements lol", () => {
 test("gets the index of a given value", () => {
   var arrayColors = ["red", "blue", "green"];
   // TODO implement
-  
+  expect(util.getIndexOf(arrayColors, "blue")).toBe(1);
+  expect(util.getIndexOf(arrayColors, "green")).toBe(2);
 });
 
 test("moves a string to camel case", () => {
   var string = "User name";
   // TODO implement
+  expect(util.toCamelCase(string)).toEqual("userName");
 });
