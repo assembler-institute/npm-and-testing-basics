@@ -4,7 +4,7 @@
   "description": "Getting started with NPM and Testing",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "Assembler School",
   "license": "ISC",
@@ -13,7 +13,22 @@
     "src"
   ],
   "dependencies": {
-    "lodash": "^4.17.21",
+    "lodash": "^4.17.14",
     "moment": "^2.29.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paola3stefania/npm-and-testing-basics.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Paola3stefania/npm-and-testing-basics/issues"
+  },
+  "homepage": "https://github.com/Paola3stefania/npm-and-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^27.1.0"
   }
 }
