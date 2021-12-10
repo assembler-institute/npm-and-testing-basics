@@ -13,7 +13,7 @@ function toCamelCase(string) {
 }
 
 function getIndexOf(array, value) {
-  // TODO implement
+  return lodash.indexOf(array, value);
 }
 
 module.exports = {
