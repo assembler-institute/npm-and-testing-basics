@@ -11,5 +11,5 @@ test("gets current month", () => {
 });
 
 test("gets current year", () => {
-  // TODO implement
+  expect(date.getCurrentYear()).toBe(new Date().getFullYear());
 });

@@ -13,7 +13,7 @@ function getCurrentMonth() {
 }
 
 function getCurrentYear() {
-  // TODO implement
+  return moment().year();
 }
 
 module.exports = {
