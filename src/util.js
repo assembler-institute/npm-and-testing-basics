@@ -9,7 +9,7 @@ function createArray(arraySize) {
 }
 
 function toCamelCase(string) {
-  // TODO implement
+  return lodash.camelCase(string);
 }
 
 function getIndexOf(array, value) {

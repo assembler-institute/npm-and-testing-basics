@@ -14,4 +14,5 @@ test("gets the index of a given value", () => {
 test("moves a string to camel case", () => {
   var string = "User name";
   // TODO implement
+  expect(util.toCamelCase(string)).toBe("userName");
 });
