@@ -9,7 +9,7 @@ function getWeekDay() {
 }
 
 function getCurrentMonth() {
-  // TODO implement
+  return moment().month();
 }
 
 function getCurrentYear() {

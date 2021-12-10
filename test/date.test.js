@@ -7,7 +7,7 @@ test("gets current day", () => {
 });
 
 test("gets current month", () => {
-  // TODO implement
+  expect(date.getCurrentMonth()).toBe(new Date().getMonth());
 });
 
 test("gets current year", () => {
