@@ -5,8 +5,7 @@ var moment = require("moment");
  * */
 
 function getWeekDay() {
-  // TODO implement
-  // return moment().day();
+  return moment().day();
 }
 
 function getCurrentMonth() {
