@@ -20,7 +20,7 @@ function getCurrentYear() {
 }
 
 module.exports = {
-  getCurrentDay: getWeekDay(),
-  getCurrentMonth: getCurrentMonth(),
-  getCurrentYear: getCurrentYear(),
+  getCurrentDay: getWeekDay,
+  getCurrentMonth: getCurrentMonth,
+  getCurrentYear: getCurrentYear,
 };
