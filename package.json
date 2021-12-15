@@ -4,7 +4,7 @@
   "description": "Getting started with NPM and Testing",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "author": "Assembler School",
   "license": "ISC",
@@ -17,6 +17,6 @@
     "moment": "^2.29.1"
   },
   "devDependencies": {
-    "jest": "^27.4.4"
+    "jest": "^25.4.0"
   }
 }
