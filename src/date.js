@@ -1,4 +1,4 @@
-var moment = require("moment");
+var myDAte= newDate();
 
 /**
  * TODO: all getters, all get method must return a value
