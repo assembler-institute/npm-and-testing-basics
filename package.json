@@ -13,6 +13,7 @@
     "src"
   ],
   "dependencies": {
+    "jquery": "^3.6.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.1"
   },
@@ -27,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/cicu90/npm-and-testing-basics/issues"
   },
-  "homepage": "https://github.com/cicu90/npm-and-testing-basics#readme"
+  "homepage": "https://github.com/cicu90/npm-and-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
 }
