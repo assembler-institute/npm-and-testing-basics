@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/Kory-ifcd0210/npm-and-testing-basics/issues"
   },
-  "homepage": "https://github.com/Kory-ifcd0210/npm-and-testing-basics#readme"
+  "homepage": "https://github.com/Kory-ifcd0210/npm-and-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
 }
