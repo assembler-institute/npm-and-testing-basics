@@ -14,6 +14,22 @@
   ],
   "dependencies": {
     "lodash": "^4.17.21",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "update": "^0.7.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cicu90/npm-and-testing-basics.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/cicu90/npm-and-testing-basics/issues"
+  },
+  "homepage": "https://github.com/cicu90/npm-and-testing-basics#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
   }
 }
